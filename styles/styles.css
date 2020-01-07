@@ -1,1 +1,92 @@
+.body {
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background: #262626;
+}
 
+.landing {
+  background-color: #FAF4DE;
+  position:relative;
+  height: 50vw;
+  width: 100vw;
+}
+
+.brand-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.name {
+  font-family: interstate, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 8vw;
+  line-height: 6vw;
+  padding-top: 10vw;
+  position: absolute;
+  top: 5vw;
+  left: 35vw;
+}
+
+.skills {
+  font-family: interstate, sans-serif;
+  width:500px;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 1.7vw;
+  position: absolute;
+  top:27.5vw;
+  left:35.5vw;
+}
+
+.portfolio{
+  margin: 200px auto 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+}
+
+.portfolio .card {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  background: #FAF4DE;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,.2);
+  overflow:hidden;
+}
+
+.portfolio .card .layer{
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#F24738, #FAF4DE);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.portfolio .card:hover .layer{
+  top: 0;
+}
+
+.portfolio .card .projectDetails{
+  position: relative;
+  z-index: 2;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+}
