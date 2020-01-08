@@ -5,6 +5,12 @@ article {
 	grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
 }
 
+a { box-shadow: inset 0 -0.25em #F24738; }
+a:hover {
+  transition: .5s;
+  background: #F24738;
+ }
+
 article * { grid-column: start / end; }
 
 @media (max-width: 8.5in) {
