@@ -5,3 +5,11 @@ $(window).scroll(function () {
         'opacity': ((height - scrollTop*2.5) / height)
     });
 });
+
+$(document).ready(function (){
+    $(".skills").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#work").offset().top
+        }, 1000);
+    });
+});

@@ -1,0 +1,19 @@
+.footer {
+  background-color: #FAF4DE;
+  position:relative;
+  margin: auto;
+  height: 25vh;
+  width: 100%;
+  display: table;
+}
+
+.cw {
+  font-family: interstate, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 70%;
+  position:absolute;
+  width:100%;
+  bottom:0;
+  text-align:center;
+}

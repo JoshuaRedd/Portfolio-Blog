@@ -9,7 +9,7 @@
   background-color: #FAF4DE;
   position:relative;
   margin: auto;
-  height: 75vh;
+  height: 100vh;
   width: 100%;
   display: table;
   top: 0;
@@ -48,8 +48,12 @@
   left: 5px;
 }
 
+.skills :hover, .posttitle:hover {
+  transition: .5s;
+  background: #F24738;
+}
 
-.red {
+/* .red {
   font-family: flood-std,sans-serif;
   font-weight: 400;
   font-size: 250%;
@@ -61,8 +65,8 @@
 }
 
 @media (max-width: 8.5in) {
-  .red {right:44px;}
-}
+  .red {right:44px;};
+} */
 
 .title{
   margin-top: 60px;
@@ -85,7 +89,11 @@
 }
 
 @media (max-width: 22in) {
-  .portfolio {max-width: 100%}
+  .portfolio {max-width: 100%};
+}
+
+@media (max-width: 13.5in) {
+  .portfolio {grid-template-columns: repeat(1, 1fr)};
 }
 
 .portfolio .card {
@@ -167,10 +175,6 @@ img {
 
 .post {
   text-align: center;
-}
-
-.posttitle:hover{
-  box-shadow: inset 0 -0.25em #F24738;
 }
 
 .bloglist {
