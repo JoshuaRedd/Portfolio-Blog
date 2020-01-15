@@ -7,9 +7,17 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function (){
-    $(".skills").click(function (){
+    $(".fa-angle-double-down").click(function (){
         $('html, body').animate({
             scrollTop: $("#work").offset().top
+        }, 1000);
+    });
+});
+
+$(document).ready(function (){
+    $(".fa-angle-double-up").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#top").offset().top
         }, 1000);
     });
 });
