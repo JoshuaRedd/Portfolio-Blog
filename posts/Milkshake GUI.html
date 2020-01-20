@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mlikshake GUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i">
+        <link rel="stylesheet" href="../styles/reset.css">
+        <!-- <link rel="stylesheet" href="../styles/debug.css"> -->
+		<link rel="stylesheet" href="../styles/article.css">
+		<link rel="stylesheet" href="../styles/figure.css">
+		<link rel="stylesheet" href="../styles/text.css">
+		<link rel="stylesheet" href="../styles/footer.css">
+		<link rel="stylesheet" href="https://use.typekit.net/uyn1dom.css">
+		<script src="https://kit.fontawesome.com/ea9c141fbd.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../scripts/script.js"></script>
+	</head>
+    <body>
+		<article id="top">
+			<figure class="size-4">
+				<img class="topbanner" src="https://images.unsplash.com/photo-1541658016709-82535e94bc69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="a halfway open laptop">
+			</figure>
+
+			<h1><a href="#top">Designing a Milkshake-Vending-Machine (MSVM) Interface</a></h1>
+			<h2>The Perfect Blend</h2>
+
+			<time datetime="18-01-2020">Jan 18, 2020</time>
+			<p>
+				<strong>You asked. I delivered.</strong> <br> Okay.. maybe just my CMPT 381
+				asked, but who can say no to dessert? Even if it is in the form of a user interface design project.
+			</p>
+			<p>
+				In this post I walk through the process of designing a user interface
+				for a milkshake vending machine (MSVM) utilizing <strong>user personas, interface sketches, and design walkthroughs.</strong>
+				By the end of this process a winner will emerge which I will attempt to bring to life using Javafx.
+			</p>
+			<p>
+				Below is a portion of the initial assignment brief:
+			</p>
+			<div>
+				<figure class="size-2">
+					<img class="paddingbottom" src="../images/Milkshake GUI/Overview.png" alt="A text assignment description">
+				<figure>
+			</div>
+
+			<h3>USER PERSONAS</h3>
+			<p>
+				Personas are fictional characters that aggregate patterns and trends in a given user group. They can
+				be a very useful point of focus and, from what I've experienced so far, a great opportunity to integrate
+				user empathy into the design process. The Interaction Design Foundation provides a large wealth of free
+				resources, check out their introduction to personas <a id="red" href="https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them" target="_blank">here!</a>
+			</p>
+			<p>
+				For this assignment I was provided with 2 user personas and tasked with creating a third. In real life projects
+				user personas should be created as a direct refleciton of research and data, when the interface designer or team creates
+				personas without research they are referred to as "Fictional Personas." Using Fictional Personas as a guide for design
+				and development is bad practice but this is what we will be working with for the sake of this assignment.
+			</p>
+			<p>
+				Scroll down to see the two provided personas alongside my creation: Jeff. To polish things up a bit I created Jeffs Persona
+				with Adobe XD.
+			</p>
+			<div>
+				<figure class="size-2">
+					<img src="../images/Milkshake GUI/Marlon.png" alt="Marlons Persona"
+				</figure>
+				<figure class="size-2">
+					<img src="../images/Milkshake GUI/Miriam.png"
+				</figure>
+				<figure class="size-2">
+					<img class="paddingbottom"src="../images/Milkshake GUI/Jeff.jpg"
+				</figure>
+			</div>
+
+			<h3>TASK DESCRIPTIONS</h3>
+			<p>
+				With personas generated I can look at specific tasks each user would attempt to carry out within
+				the overarching goal of ordering milkshake(s).
+			</p>
+			<figure class="size-2">
+				<img class="paddingbottom"src="../images/Milkshake GUI/Tasks.png">
+			</figure>
+
+			<h3>INTERFACE SKETCHES</H3>
+				<p>
+					With personas in hand and realistic tasks established I'm ready to get down to sketching Interface ideas.
+					The object here is to generate many ideas quickly, or as my prof put it "to fail fast and fail early."
+					Physical paper is a great medium for this task as it's quick, easy, and (if you recycle) relatively painless!
+				</p>
+				<p>
+					Once again the folks at the Interactive Design Foundation have <a id="red" href="https://www.interaction-design.org/literature/article/etch-a-sketch-how-to-use-sketching-in-user-experience-design" target="_blank">
+						a great article on this topic!</a>
+				</p>
+				<h4>MSVM Sketches</h4>
+				<figure class="size-2">
+					<img src="../images/Milkshake GUI/Sketches1.png">
+					<img class="paddingbottom"src="../images/Milkshake GUI/Sketches2.png">
+				</figure>
+
+			<h3>User Walkthroughs</h3>
+			<p>
+				After sketching out several ideas and picking the best ones it's time to test them out with user
+				walkthroughs. Prototyping applicaitons like Adobe XD are very powerful in their capacity to animate
+				and provide a realistic experience to test designs with; this is great but paper modals can work
+				brilliantly too.
+			</p>
+			<p>
+				Ideally a designer would recruit others to play the roles laid out in the persona and
+				make note of any pain points throughout the interaction. In this instance I had to stand in
+				as the user and see what I could gleam by shifting my perspective.
+			</p>
+			<p>
+				Walkthroughs were performed for all 3 users with all 3 selected interfaces for a total of 9. Below
+				I have shared just the walkthroughs for Marlon:
+			</p>
+			<figure class="size-2">
+				<img class="paddingbottom"src="../images/Milkshake GUI/MarlonWalkthroughs.png">
+			</figure>
+
+			<h3>Final Selection & Design Rational</h3>
+			<p>
+				Options are great, but to move forward it's important to identify a design that best resovles the original
+				design problem and user goals. I also don't want to forget about all of those tasty nuggets of information
+				and revealed pain points from the walkthroughs. Identifying how to remedy these problems and putting those
+				changes into action for the next iteration rounds off the process nicely.
+			</p>
+			<figure class="size-2">
+				<img class="paddingbottom"src="../images/Milkshake GUI/DesignRational.png">
+			</figure>
+			<p>
+				Huzzah for empathy driven design! Until next time.
+			</p>
+			<figure class="size-2">
+				<img class="paddingbottom"src=https://media.giphy.com/media/Qa87Un4prWRVu/giphy.gif>
+			</figure>
+		</article>
+
+
+		<br>
+		<div class="footer">
+			<div class="bottomNav">
+				<a href="#top"><i class="fas fa-angle-double-up"></i></a>
+				<a href=../index.html><i class="fas fa-home"></i></a>
+			</div>
+			<div class="socials">
+				<a href="https://github.com/JoshuaRedd" target="_blank"><i class="fab fa-github-square"></i></a>
+				<a href="https://www.behance.net/joshuareddekopp" target="_blank"><i class="fab fa-behance-square"></i></a>
+				<a href="https://www.linkedin.com/in/joshua-reddekopp-b2155216a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://www.instagram.com/joshua.ryan.photo/" target="_blank"><i class="fab fa-instagram"></i></a>
+			</div>
+			<div class="cw">© 2019-2020 Joshua Reddekopp</div>
+		</div>
+  	</body>
+</html>

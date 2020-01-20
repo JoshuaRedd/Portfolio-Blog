@@ -39,7 +39,7 @@
   width:100%;
 }
 
-.fa-github-square:hover , .fa-instagram:hover , .fa-linkedin:hover {
+.fa-github-square:hover , .fa-instagram:hover , .fa-behance-square:hover , .fa-linkedin:hover {
   transition: .5s;
   color:red;
 }
