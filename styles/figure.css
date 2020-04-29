@@ -24,3 +24,38 @@ figcaption {
 .paddingbottom {
   padding-bottom: 3rem;
 }
+
+
+/* Sizing for multiple images */
+* {
+  box-sizing: border-box;
+}
+
+.two_column {
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+
+.three_column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .two_column {
+    width: 100%;
+  }
+  .three_column {
+    width: 100%;
+  }
+}
