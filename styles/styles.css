@@ -39,13 +39,6 @@
   line-height: 85px;
 }
 
-@media (max-width: 13.5in) {
-  .name{
-    font-size: 450%;
-    line-height: 65px;
-    };
-}
-
 
 .skills {
   font-family: interstate, sans-serif;
